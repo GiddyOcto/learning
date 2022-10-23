@@ -4,8 +4,6 @@ import json
 import requests
 import consts
 
-TOKEN = consts.TOKEN
-chatID = consts.chatID
 sa = gspread.service_account(filename=consts.creds)
 
 def insertRow(listOfItems):
